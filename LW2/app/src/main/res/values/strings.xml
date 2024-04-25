@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">quizLW</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_logo">Квиз!</string>
+    <string name="play_10_button">Играть 10 вопросов</string>
+    <string name="scoreboard_button">Рейтинг</string>
+    <string name="play_50_button">Играть 50 вопросов</string>
+    <string name="play_until_button">Играть до 3х ошибок</string>
+    <string name="question_hint">Вопрос:</string>
+    <string name="question_counter_text">Осталось вопросов</string>
+    <string name="quiz_exit_button">Закончить квиз</string>
+    <string name="nav_questions_number">NAV_QUESTIONS_NUMBER</string>
+    <string name="dialog_fragment_title">Игра окончена!</string>
+    <string name="dialog_fragment_hint">Ваш счёт:</string>
+    <string name="dialog_fragment_nickname_hint">Введите Ваше имя</string>
+    <string name="dialog_fragment_button">Завершить игру</string>
+    <string name="scoreboard_title">Таблица счёта</string>
+    <string name="scoreboard_number">№</string>
+    <string name="scoreboard_name">Имя игрока</string>
+    <string name="scoreboard_score">Счёт</string>
+    <string name="scoreboard_max_score">Вопросов</string>
+    <string name="until_health">"Оталось попыток: "</string>
+</resources>

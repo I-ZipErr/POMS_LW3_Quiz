@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="QuestionTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:background">@drawable/question_text_background</item>
+    </style>
+    <style name="ButtonView" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/button_common_color</item>
+    </style>
+</resources>

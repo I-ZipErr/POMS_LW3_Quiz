@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/app_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:textSize="20pt"/>
+        <Button
+            android:id="@+id/play_10_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play_10_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp" />
+<!--        <Button-->
+<!--            android:id="@+id/play_50_button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/play_50_button"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_margin="10dp" />-->
+        <Button
+            android:id="@+id/play_until_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play_until_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp" />
+        <Button
+            android:id="@+id/scoreboard_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scoreboard_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
